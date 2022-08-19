@@ -16,6 +16,13 @@ public class C02Arithmetic {
 		long z = 2*x + y;
 				
 		System.out.println(z);
+		
+	//	System.out.println(3/0);
+		System.out.println(3/0.0);
+		System.out.println(3.0/0);
+	//   System.out.println(3 % 0);
+		System.out.println(3.0 % 0);
+		// 정수는 0으로 나누면 에러, 실수는 무한대,나머지는 nan이라는 값이 나옴
 	}
 
 }
