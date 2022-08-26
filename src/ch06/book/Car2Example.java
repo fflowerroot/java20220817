@@ -8,5 +8,8 @@ public class Car2Example {
 		System.out.println(c.speed);
 		
 		c.run();
+		
+		String s;
+		System.out.println(s);
 	}
 }

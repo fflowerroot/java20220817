@@ -1,4 +1,4 @@
-package ch04.lecture;
+package ch04.lecture.p01control;
 
 public class C04Random {
  /* Math.random() 	: 0이상(?) 1이하(?) 의 double 값을 리턴

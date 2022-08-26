@@ -1,4 +1,4 @@
-package ch06;
+package ch06.book;
 
 public class ArrayReferenceObjectExample {
 	public static void main(String[] args) {

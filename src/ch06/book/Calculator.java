@@ -1,8 +1,13 @@
 package ch06.book;
 
 public class Calculator {
+
 	int plus(int x, int y) {
 		return x + y;
+	}
+	
+	void powerOn() {
+		System.out.println("Power on");
 	}
 	
 	double avg(int x, int y) {
@@ -29,7 +34,8 @@ public class Calculator {
 	같은 클래스 내부의 메서드에서 호출하면 그냥 메서드이름()으로 호출 가능해.
 	*/
 	
-	Calculator myCalc = new Calculator();
-	myCalc.execute();
+//	Calculator myCalc = new Calculator();
+//	myCalc.execute();  // 사용할 클래스에 에러가 있으니까 , 다른 클래스에서 에러없는 함수를 호출해도 
+						// 에러가 남.....
 	
 }
