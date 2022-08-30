@@ -11,6 +11,6 @@ public class ArrayReferenceObject {
 		
 	}
 }
-class A{
-	int a=1;
-}
+//class A{
+//	int a=1;
+//}

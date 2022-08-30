@@ -10,6 +10,6 @@ public class Car2Example {
 		c.run();
 		
 		String s;
-		System.out.println(s);
+	//	System.out.println(s);
 	}
 }

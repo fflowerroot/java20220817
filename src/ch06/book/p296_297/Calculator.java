@@ -1,8 +1,8 @@
-package ch07.book;
+package ch06.book.p296_297;
 
 public class Calculator {
-	final double areaCircle(double r) {
+	double areaCircle(double r) {
 		System.out.println("Calculator 객체의 areaCircle() 실행");
-		return 3.14159 * r * r;
+		return 3.14159*r*r;
 	}
 }

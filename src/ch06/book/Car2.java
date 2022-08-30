@@ -14,9 +14,10 @@ public class Car2 {
 	}
 	
 	void run() {
-		for(int i = 10; i <= 50; i+=10) {
-			this.setSpeed(i);
+	//	for(  ; speed <= 100;  ) {
+		while(speed <= 100) {
 			System.out.println(this.model + " is runnig.(" + this.speed + "km/h)");
+			setSpeed(speed+10);
 		}
 	}
 	

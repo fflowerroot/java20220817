@@ -26,4 +26,12 @@ public class Car {
 			}
 		}
 	}
+	
+	void needToInject() {
+		if(this.isLeftGas()) {
+			System.out.println("No need to inject gas.");
+		}else {
+			System.out.println("Ingect gas.");
+		}
+	}
 }
