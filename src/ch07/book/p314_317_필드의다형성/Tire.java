@@ -1,4 +1,4 @@
-package ch07.book.p314_317;
+package ch07.book.p314_317_필드의다형성;
 
 public class Tire {
 	// field
@@ -8,7 +8,7 @@ public class Tire {
 
 	// constructor
 	public Tire(String location, int maxRotation) {
-		this.location = location;
+		 this.location = location;
 		this.maxRotation = maxRotation;
 	}
 
@@ -16,11 +16,9 @@ public class Tire {
 	public boolean roll() {
 		++accumulatedRotation;
 		if (accumulatedRotation < maxRotation) {
-			System.out.println("tire life :  " + (maxRotation - accumulatedRotation) + "times");
+			System.out.println("tire life	  :  " + (maxRotation - accumulatedRotation) + "times");
 			return true;
-		}else {
-		System.out.println(location + "tire puncture");
-		return false;
 		}
+		return false;
 	}
-}	
+}

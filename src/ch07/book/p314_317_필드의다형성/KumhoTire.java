@@ -1,4 +1,4 @@
-package ch07.book.p314_317;
+package ch07.book.p314_317_필드의다형성;
 
 public class KumhoTire extends Tire{
 	//constructor
@@ -11,10 +11,10 @@ public class KumhoTire extends Tire{
 	public boolean roll() {
 		++accumulatedRotation;
 		if (accumulatedRotation < maxRotation) {
-			System.out.println("Kumhotire life :  " + (maxRotation - accumulatedRotation) + "times");
+			System.out.println("Kumhotire life    :  " + (maxRotation - accumulatedRotation) + "times");
 			return true;
 		}
-		System.out.println(location + "Kumhotire puncture");
+		System.out.println( "Kumhotire puncture");
 		return false;
 	}
 }
