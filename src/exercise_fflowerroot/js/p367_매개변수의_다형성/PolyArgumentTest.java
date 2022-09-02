@@ -39,7 +39,7 @@ class Computer extends Product {
 	}
 }
 
-class Buyer {
+class Buyer {`
 	int money;
 	int accumulatedPoint;
 
@@ -52,4 +52,4 @@ class Buyer {
 		accumulatedPoint += product.point;
 		System.out.println(" price : " + product.price + "    point : " + product.point);
 	}
-}
+} //1672
