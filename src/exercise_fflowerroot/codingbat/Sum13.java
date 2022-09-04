@@ -1,4 +1,4 @@
-package exercise_fflowerroot._220825;
+package exercise_fflowerroot.codingbat;
 
 public class Sum13 {
 	public static void main(String[] args) {

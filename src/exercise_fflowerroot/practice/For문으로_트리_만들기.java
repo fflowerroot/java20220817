@@ -1,6 +1,6 @@
-package exercise_fflowerroot._220823;
+package exercise_fflowerroot.practice;
 
-public class For {
+public class For문으로_트리_만들기 {
 	public static void main(String[] args) {
 
 //			_______0_______

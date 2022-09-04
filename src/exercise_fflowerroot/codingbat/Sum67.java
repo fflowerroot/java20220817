@@ -1,4 +1,4 @@
-package exercise_fflowerroot._220825;
+package exercise_fflowerroot.codingbat;
 //********codingbat Array-2 >> Sum67
 //  이중포문으로는 방법이 없는건가?????
 public class Sum67 {

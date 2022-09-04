@@ -1,4 +1,4 @@
-package exercise_fflowerroot._20220829;
+package exercise_fflowerroot.practice;
 
 public class CatingTest2 {
 	public static void main(String[] args) {
