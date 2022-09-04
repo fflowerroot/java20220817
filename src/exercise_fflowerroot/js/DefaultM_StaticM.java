@@ -6,7 +6,7 @@ public class DefaultM_StaticM implements A {
 //		A.dm();
 		A a = new DefaultM_StaticM(); 
 		a.dm();
-		
+		,,,,
 		
 	}
 	
