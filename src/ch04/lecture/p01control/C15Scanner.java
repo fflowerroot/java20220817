@@ -15,7 +15,7 @@ public class C15Scanner {
 
 		String scr2 = "123 456 789";
 		scanner = new Scanner(scr2);
-		int s3 = scanner.nextInt(scr2);
+//		int s3 = scanner.nextInt(scr2);
 		int i = Integer.valueOf(s3);
 
 		String src3 = "hello wrld\nheollo java\nhellow spring";

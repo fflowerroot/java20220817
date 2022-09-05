@@ -6,34 +6,34 @@ public class C15Scanner_t {
 	public static void main(String[] args) {
 		String src = "hello my javascript";
 		Scanner scanner = new Scanner(src);
-		
-		String t1 = scanner.next();
-		System.out.println(t1);
-		
-		String t2 = scanner.next();
-		System.out.println(t2);
-		
-		String t3 = scanner.next();
-		System.out.println(t3);
+//		
+//		String t1 = scanner.next();
+//		System.out.println(t1);
+//		
+//		String t2 = scanner.next();
+//		System.out.println(t2);
+//		
+//		String t3 = scanner.next();
+//		System.out.println(t3);
 		
 		
 		String src2 = "123 456 789";
 		scanner = new Scanner(src2); 
-		// 참조변수 scanner(?) 앞에 Scanner도 없는데..new를 왜 붙였지???
-		// 한번만 클래스명 앞에 붙여주면 그다음 생성할 때는 안붙여도 되나?
+		// 참조변수 scanner(?) 앞에 Scanner도 없는데..new를 왜 붙였지?? >> 이미 선언된 변수에 인스턴스 새로 생성해서 넣을 수 있음.
 		
 		String t4 = scanner.next();
 		System.out.println(t4);
 //		System.out.println(t4 * 2); // x
 		 
-		int i1 = Integer.valueOf(t4);
-		System.out.println(i1);
-		
-		System.out.println(i1 * 2);
+//		int i1 = Integer.valueOf(t4);
+//		System.out.println(i1);
+//		
+//		System.out.println(i1 * 2);
 		
 		int i2 = scanner.nextInt();
 		System.out.println(i2);
-		
+		int i3 = scanner.nextInt();
+		System.out.println(i3);
 		
 		String src3 = "hello world\nhello java\nhello spring"; // \n : new line
 		System.out.println(src3);
