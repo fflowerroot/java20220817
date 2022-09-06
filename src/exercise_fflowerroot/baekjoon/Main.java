@@ -1,35 +1,27 @@
 package exercise_fflowerroot.baekjoon;
 
 import java.util.*;
-class Main{
-    public static void main(String args[]){
-        Scanner sc= new Scanner(System.in);
-        String s = sc.nextLine();
-        sc = new Scanner(s);
-        int i = sc.nextInt();
-        System.out.println(i);
-        
-        int i2 = sc.nextInt();
-        
-        
-        System.out.println(i2);
-    }
-}    
-        
-//        String s = sc.next();
-//        int i = Integer.valueOf(s);
-//        int ii = Integer.valueOf(s);
-//        System.out.println(i);
-//        System.out.println(ii);
-//         
-//        int i1 = sc.nextInt(i);
-//        int i2 = sc.nextInt(i);
-//        int i3 = sc.nextInt(i);
-//        int i4 = sc.nextInt(i);
-//        int i5 = sc.nextInt(i);
-//        int i6 = sc.nextInt(i);
-//        System.out.println(i1+","+i2);
-//       
-//        
-//        System.out.println(i-(2541-1998));
-//    }
+
+class Main {
+	public static void main(String args[]) {
+		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+		int y = sc.nextInt();
+
+		if (x * y > 0) {
+			if (x > 0) {
+				System.out.println(1);
+			} else {
+				System.out.println(3);
+			}
+		} else {
+			if (x < 0) {
+				System.out.println(2);
+			} else {
+				System.out.println(4);
+			}
+		}
+	}
+}
+
+//윤년은 연도가 4의 배수이면서, 100의 배수가 아닐 때 또는 400의 배수일 때이다.
