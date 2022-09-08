@@ -1,4 +1,4 @@
-package exercise_fflowerroot.leetcode.N1672;
+package exercise_fflowerroot.leetcode;
 
 public class A {
 	public static int maximumWealth(int[][] accounts) {
