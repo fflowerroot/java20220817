@@ -2,6 +2,7 @@ package exercise_fflowerroot.leetcode;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 class Solution {
@@ -56,6 +57,46 @@ class Solution {
 		}
 		return l;
 	}
+	
+
+	    public int lastStoneWeight(int[] stones) {
+//	        List<Integer> list = new ArrayList<>();
+//	        for(int stone:stones){
+//	            list.add(stone);
+//	        }
+//	        int max1=0;
+//	        int max2=0;
+//
+//	        for(int stone : stones) {
+//				max1 = stone>max1? stone:max1;
+//			}
+	    	int tmp = 0;
+			for (int i = 0; i < stones.length; i++) {
+				for (int j = 0; j < stones.length; i++) {
+					if (stones[j] > stones[j + 1]) {
+						tmp = stones[j];
+						stones[j] = stones[j + 1];
+						stones[j + 1] = tmp;
+					}
+			//		System.out.println(stones[i]);
+				}
+			}
+	        List<Integer> list2 = new ArrayList<>();
+	        for(int stone:stones){
+	            list2.add(stone);
+	        }
+	        
+	        for(int i =0; i<list2.size();i++) {
+	        	if(list2.add(list2.size()-1))
+	        }
+			
+	        
+	        
+	        
+	        return max2;
+	        
+	    }
+	
 
 	public static void main(String[] args) {
 		int[] ia = { 3, 2, 1 };
@@ -70,3 +111,4 @@ class Solution {
 	}
 
 }
+//119 118 1200
