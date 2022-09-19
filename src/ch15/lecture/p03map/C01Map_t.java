@@ -2,7 +2,7 @@ package ch15.lecture.p03map;
 
 import java.util.HashMap;
 import java.util.Map;
-// 리트코드 문제 9월18일 월요일까지 - 1748 1512 2006 2206 // 2215는 이미 풀었음 //1684 accepted인데 submit 틀림 다시보고 질문/
+// 리트코드 문제 9월18일 월요일까지 - 1748 1512 2006 2206 // 2215는 이미 풀었음 //
 public class C01Map_t {
 	public static void main(String[] args) {
 		// Map

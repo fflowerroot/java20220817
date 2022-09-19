@@ -19,8 +19,10 @@ public class n1748 {
 		}
 //       for(int i:l) {
 //       s.remove(new Integer(l.get(i)));//왜 객체까지 생성해서 넣었는데 계속 인덱스로 인식됨?
-//       }
-//        
+//       }								 //  왜 인덱스로 인식된다고 생각했지??;; set은 인덱스 없대..
+										//    향상된  for문에 대한 이해가 부족해서... 잘못된 코드 작성;;
+		s.remove(1); System.out.println(s);
+      
 		for (int i : s) {
 			if (!l.contains(i)) {
 				s2.add(i);
