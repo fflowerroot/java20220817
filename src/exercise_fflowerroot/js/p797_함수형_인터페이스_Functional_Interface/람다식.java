@@ -17,9 +17,9 @@ public class 람다식 {
 		//			  람다는 추상메서드가 1개인 인터페이스만 구현 가능함 
 		//		      메서드가 1개니까 선언부를 자세히 쓸 필요가 없다. 안써도 그 메서드인줄 아니까.
 		
-		I2 inter2 = 
-				(int a, int b)-> a > b ? a : b;  //람다식으로 익명객체 생성
-		System.out.println(inter2.max(11, 0));
+		I2 inter2 = (int a, int b)-> a > b ? a : b;  //람다식으로 익명객체 생성후 람다객체가 구현한 인터페이스 참조변수에 저장
+		
+		System.out.println(inter2.max(11, 0)); // 람다객체가 구현한 인터페이스의 참조변수로 람다객체가 오버라이딩한 메서드 사용
 	}
 }
 
@@ -27,3 +27,31 @@ public class 람다식 {
 interface I2 {
 	int max(int a, int b);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
