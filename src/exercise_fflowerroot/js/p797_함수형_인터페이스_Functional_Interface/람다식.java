@@ -28,6 +28,10 @@ interface I2 {
 	int max(int a, int b);
 }
 
+interface I3{
+	void intC(int a);
+}
+
 
 
 
